@@ -1,0 +1,210 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  * {
+  border-radius: 5%;
+  }
+  
+  // header styles
+  .mobile-header {
+    display: none;
+  }
+
+  .desktop-header {
+    // background-color: #e1e2a0;
+    text-align: center;
+    padding: 1vw 2vw;
+    position: fixed;
+    width: 79vw;
+    border-radius: 0px;
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-list,
+  .right-list {
+    width: 100%;
+    display: flex;
+    // gap: 2vw;
+    gap: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  // general styles
+
+  body {
+    padding: 2vw 10vw;
+  }
+
+  .header-two {
+    font-size: 28px;
+    color: $primaryColor;
+    letter-spacing: 2%;
+  }
+
+  .subHeader-two {
+    font-size: 24px;
+    color: $secondaryColor;
+    letter-spacing: 2%;
+    margin: 0.5vw 0px;
+  }
+
+  .paragraph-two {
+    font-size: 18px;
+    color: $blackPrimary;
+    letter-spacing: 1%;
+    line-height: 30px;
+  }
+
+  .row {
+    display: flex;
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    justify-content: space-between;
+    justify-content: 10vw;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  // showcase styles
+  .showcase {
+    border-radius: 0px;
+    padding-top: 4vw;
+    background-color: #e1e2a0;
+  }
+
+  .show-img {
+    order: 2;
+    box-shadow: inset -9px -9px 18px rgba(255, 253, 253, 0.25),
+      inset 9px 9px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .green {
+    text-align: center;
+  }
+
+  //   aim styles
+  .aim {
+    margin: 4vw 0px;
+    // width: fit-content;
+    display: block;
+  }
+
+  .que {
+    text-align: right;
+  }
+
+  .ans {
+    text-align: center;
+    overflow-wrap: none;
+    word-wrap: 0px;
+  }
+
+  // sitting styles
+
+  .sit-img {
+    box-shadow: (-18px -18px 27px rgba(251, 251, 251, 0.75)),
+      (9px 9px 27px rgba(0, 0, 0, 0.14));
+  }
+
+  // standing styles
+
+  .standing {
+    text-align: center;
+    margin: 4vw 0px;
+
+    .row {
+      margin-top: 3vw;
+      text-align: left;
+    }
+  }
+
+  .stand {
+    box-shadow: (-2px -9px 10px #faf8f6), (2px 9px 10px #cbc7bf);
+  }
+
+  // walking styles
+
+  .walking {
+    .context {
+      order: 2;
+    }
+  }
+
+  .walk-img {
+    order: 1;
+    // box-shadow: inset 9px 9px 4px rgba(0, 0, 0, 0.5),
+    // box-shadow: 9px 9px 18px rgba(0, 0, 0, 0.25),
+    //  -9px -9px 18px rgba(136, 243, 117, 0.25);
+    // inset -9px -9px 4px rgba(38, 255, 0, 0.5);
+    border: 2px solid white;
+    box-shadow: (-18px -18px 27px rgba(251, 251, 251, 0.75)),
+      (9px 9px 27px rgba(0, 0, 0, 0.14));
+  }
+
+  // sleep styles
+  .sleeping {
+    text-align: center;
+    margin: 4vw 0px;
+  }
+
+  .sleep-img {
+    box-shadow: (-18px -4px 14px rgba(163, 163, 163, 0.15)),
+      (18px 4px 18px rgba(0, 0, 0, 0.2));
+    border-radius: 2%;
+  }
+
+  // exercise styles
+  .exercise {
+    text-align: center;
+    margin: 4vw 0px;
+  }
+
+  .yoga {
+    box-shadow: (0px 18px 14px rgba(0, 0, 0, 0.15)),
+      (0px -18px 4px rgba(219, 219, 219, 0.2));
+    border-radius: 2%;
+    margin-bottom : 2vw;
+  }
+
+  // disadvantages
+
+  .disadvantages {
+    // margin-right : 50%;
+    margin-left: 50%;
+  }
+
+  // footer styles
+  .footer {
+    text-align: center;
+  }
+
+  .disclaimer-evnt {
+    padding: 1vw;
+    // @extend .paragraph-two;
+    // font-size: 20px;
+    margin-top: 1vw;
+    border: 2px solid $darkPrimary;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      background-color: $darkPrimary;
+    }
+  }
+
+  .disclaimer {
+    display: block;
+    text-align: center;
+  }
+
+  .close {
+    display: none;
+  }
+
+}

@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+$primaryColor: #b93fd1;
+$secondaryColor: #91d13f;
+$darkPrimary: #731b85;
+$lightPrimary: #e666ff;
+$darkSecondary: #50850d;
+$blackPrimary: #4c3152;
+$pink: linear-gradient(
+  148.25deg,
+  rgba(230, 102, 255, 0.2) 0.82%,
+  rgba(230, 102, 255, 0.1) 100%) ;
+
+@import "./mobile";
+@import "./desktop";
