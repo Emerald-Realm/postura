@@ -3,6 +3,7 @@
   
   * {
   border-radius: 5%;
+  font-family: Monstserrat, sans-serif;
   }
   
   // header styles
@@ -11,27 +12,33 @@
   }
 
   .desktop-header {
-    // background-color: #e1e2a0;
-    text-align: center;
-    padding: 1vw 2vw;
-    position: fixed;
+    display: flex;
     width: 79vw;
+    text-align: center;
+    position: fixed;
     border-radius: 0px;
-    display: grid;
-    grid-template-columns: 40% 10% 40%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; 
   }
 
   .left-list,
   .right-list {
+    display: flex;
     width: 100%;
-    display: flex;
-    // gap: 2vw;
-    gap: 10%;
-    display: flex;
-    flex-direction: row;
+    padding: 0px 4vw;
     align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .list-item {
+    cursor: pointer;
+    font-size: 16px;
+    color: $darkSecondary;
+    &:hover {
+      color: $lightPrimary;
+      transition: 0.2s;
+    }
   }
 
   // general styles
@@ -44,6 +51,7 @@
     font-size: 28px;
     color: $primaryColor;
     letter-spacing: 2%;
+    font-family: PlayfairDisplay, serif;
   }
 
   .subHeader-two {

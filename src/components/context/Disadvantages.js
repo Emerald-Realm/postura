@@ -2,7 +2,7 @@ import React from 'react'
 
 function Disadvantages() {
     return (
-        <div className='disadvantages'>
+        <div className='disadvantages' id='disadvantages id'>
             <p className='header-two'>Disadvantages of Bad Posture</p>
             <p className='paragraph-two'>
                 1. Misalign your musculoskeletal system.

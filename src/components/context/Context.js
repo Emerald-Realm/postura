@@ -13,11 +13,11 @@ import Benefits from './Benefits'
 function Context() {
     return (
         <div className='main-context'>
-            <Showcase/>
+            <Showcase />
             <Aim/>
-            <Sitting id='sitting-id'/>
+            <Sitting />
             <Standing/>
-            <Walking id='walking-id'/>
+            <Walking />
             <Sleeping/>
             <Mistakes/>
             <Exercise/>

@@ -3,7 +3,7 @@ import Walk from '../../images/walking.jpg'
 
 function Walking() {
     return (
-        <div className='walking row'>
+        <div className='walking row' id='walking id'>
             <div className='context'>
                 <p className='header-two'>
                     Walking Right
@@ -25,8 +25,7 @@ function Walking() {
                     6. Wear comfortable shoes.
                 </p>
             </div>
-            {/* <img src={Walk} alt='happy family' className='img walk' /> */}
-            <img src={Walk} alt='happy family' className='img walk-img' />
+            <img src={Walk} alt='walk family' className='img walk-img' />
         </div>
     )
 }
