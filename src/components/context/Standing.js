@@ -2,7 +2,7 @@ import React from 'react'
 import Stand from '../../images/standing.jpg'
 function Standing() {
     return (
-        <div className='standing'>
+        <div className='standing' id='standing id'>
             <p className='header-two'>Good Standing Posture</p>
             <p className='subHeader-two'>To Discover your correct standing posture find a wall</p>
             <div className='row'>

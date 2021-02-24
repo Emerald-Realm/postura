@@ -2,7 +2,7 @@ import React from 'react'
 
 function Mistakes() {
     return (
-        <div className='mistakes out'>
+        <div className='mistakes out' id='mistakes id'>
             <p className='header-two'>Common Posture Mistakes</p>
             <p className='paragraph-two'>
                 1. Leaning on 1 leg

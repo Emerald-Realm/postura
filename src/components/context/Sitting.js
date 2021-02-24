@@ -2,7 +2,7 @@ import React from 'react'
 import Sit from '../../images/sitting 2.jpg'
 function Sitting() {
     return (
-        <div className='sitting row'>
+        <div className='sitting row' id='sitting id'>
             <img src={Sit} alt='chair' className='sit-img img'/>
             <div className='context'>
                 <p className='header-two'>

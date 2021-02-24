@@ -1,11 +1,9 @@
 @media only screen and (max-width: 768px) {
   // body styles
-  body {
-    // padding: 0px 5vw;
-  }
 
   * {
     border-radius: none;
+    font-family: OpenSans, sans-serif;
   }
 
   .header-two {
@@ -40,7 +38,6 @@
   }
 
   .mobile-header {
-    // background-color: red;
     position: fixed;
     z-index: 99;
     width: 100vw;
@@ -55,6 +52,7 @@
   .menu,
   .logo {
     padding: 4vw;
+    cursor: pointer;
   }
 
   .menu {
@@ -66,13 +64,16 @@
   }
 
   .logo {
-    // @extend .menu;
+    color: $primaryColor;
+    font-size: 18px;
+    letter-spacing: 2%;
   }
 
   .show {
     width: 100%;
     transition: 1s;
-    background-color: $lightPrimary;
+    // background-color: $lightPrimary;
+    background-color:  #e1e2a0;
   }
 
   .hide {
@@ -89,6 +90,10 @@
     gap: 3vw;
     white-space: nowrap;
     overflow: auto;
+  }
+
+  .list-item {
+    cursor: pointer;
   }
 
   // showcase styles

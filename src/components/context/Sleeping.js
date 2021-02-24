@@ -3,7 +3,7 @@ import Sleep from '../../images/sleeping.jpg'
 
 function Sleeping() {
     return (
-        <div className='sleeping'>
+        <div className='sleeping' id='sleeping id'>
             <div className='context'>
 
             <p className='header-two'>Sleeping</p>

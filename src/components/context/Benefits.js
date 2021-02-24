@@ -3,7 +3,7 @@ import Happy from '../../images/happy.jpg'
 
 function Benefits() {
     return (
-        <div className='benefits row'>
+        <div className='benefits row' id='advantages id'>
             <div className='context'>
                 <p className='header-two'>Advantages of Good Posture</p>
                 <p className='paragraph-two'>
